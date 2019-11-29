@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fordbronco">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/entranceonis"
+            android:scaleType="centerCrop"/>
+
+
+        <ImageView
+            android:id="@+id/bronco"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/bronco"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/cream"
+            android:id="@+id/brand"
+            android:text="Brand : Ford"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/bronco"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/cream"
+            android:id="@+id/model"
+            android:text="Model : 1966"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/bronco"
+            android:layout_below="@id/brand"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/cream"
+            android:id="@+id/country"
+            android:text="Country : USA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/bronco"
+            android:layout_below="@id/model"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/cream"
+            android:id="@+id/name"
+            android:text="Name : Bronco"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/bronco"
+            android:layout_below="@id/country"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"/>
+
+
+
+        <TextView
+            android:id="@+id/txt1"
+            android:textColor="@color/cream"
+            android:text="The Ford Bronco is a model line of SUVs that were manufactured and marketed by Ford from 1965 to 1996. After the first generation of the Bronco was introduced as a competitor to compact SUVs (including the Jeep CJ-5 and International Harvester Scout), the succeeding four generations of the Bronco were full-sized SUVs, competing against the Chevrolet K5 Blazer and Dodge Ramcharger. The first Bronco was assembled using its own chassis, while the full-sized Bronco was derived from the Ford F-Series (F-100, later F-150) pickup truck; all Broncos were produced with four-wheel drive powertrains."
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/bronco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:text="The Ford Bronco was withdrawn from the Ford light-truck model line following declining demand for two-door SUVs. For the 1997 model year, Ford replaced the Bronco with the Ford Expedition, a four-door SUV based on the F-150 (the later Ford Excursion was based on the Ford F-250 Super Duty).
+
+From 1965 to 1996, Broncos were produced at Ford's Michigan Truck Plant in Wayne, Michigan. In 2017, Ford announced the reintroduction of the Ford Bronco as a mid-sized SUV (derived from the Ford Ranger) as a 2021 model; manufacturing is to return to Michigan Assembly."
+            android:textColor="@color/cream"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/txt3"
+            android:text="At its August 1965 launch, the Bronco was offered with a 170-cubic-inch inline six. Derived from the Ford Falcon, the 105-hp engine was modified with solid valve lifters, a 6-US-quart (6 L) oil pan, heavy-duty fuel pump, oil-bath air cleaner, and carburetor with a float bowl compensated against tilting. In March 1966, a 200-hp 289-cubic-inch V8 was introduced as an option. For the 1969 model year, the 289 V8 was enlarged to 302 cubic inches, remaining through the 1977 model year. For 1973, a 200 cubic-inch inline six became the standard engine, offered through 1977."
+            android:textColor="@color/cream"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</ScrollView>

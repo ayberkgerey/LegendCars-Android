@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bmw2000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/entranceonis"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/bmw2002"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/bmw2002"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"/>
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/cream"
+            android:id="@+id/brand"
+            android:text="Brand : BMW"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/bmw2002"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"/>
+
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/cream"
+            android:id="@+id/model"
+            android:text="Model : 1974"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/bmw2002"
+            android:layout_below="@id/brand"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/cream"
+            android:id="@+id/country"
+            android:text="Country : Germany"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/bmw2002"
+            android:layout_below="@id/model"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/cream"
+            android:id="@+id/name"
+            android:text="Name : 2002 Turbo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/bmw2002"
+            android:layout_below="@id/country"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"/>
+
+
+        <TextView
+            android:id="@+id/txt1"
+            android:textColor="@color/cream"
+            android:text="Helmut Werner Bönsch, BMW's director of product planning, and Alex von Falkenhausen, designer of the M10 engine, each had a two-litre engine installed in a 1600-2 for their respective personal use. When they realized they had both made the same modification to their own cars, they prepared a joint proposal to BMW's board to manufacture a two-litre version of the 1600-2. At the same time, American importer Max Hoffman was asking BMW for a sporting version of the 02 series that could be sold in the United States."
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/bmw2002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:text="As per the larger coupe and 4-door sedan models, the 2.0 engine was sold in two states of tune: the base single-carburetor 2002 producing 75 kW (101 hp) and the dual-carburetor high compression 2002 ti producing 89 kW (119 hp). The 2002 Automatic, with the base engine and a ZF 3HP12 3 speed automatic transmission, became available in 1969."
+            android:textColor="@color/cream"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:text="In 1971, the Baur cabriolet was switched from the 1.6 L engine to the 2.0 L engine to become the 2002 cabriolet, the Touring hatchback version of the 02 Series became available with all engine sizes available in the 02 Series at the time and the 2002 tii was introduced (only 422 examples made) as the replacement for the 2002 ti. The 2002 tii used the fuel-injected 97 kW (130 hp) engine from the 2000 tii, which resulted in a top speed of 185 km/h (115 mph). A 2002 tii Touring model was available throughout the run of the tii engine and the Touring body, both of which ended production in 1974."
+            android:textColor="@color/cream"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

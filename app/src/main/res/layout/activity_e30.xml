@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".E30">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/entranceonis"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/reduxe30"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/reduxe30"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/cream"
+            android:id="@+id/brand"
+            android:text="Brand : BMW"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/reduxe30"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"/>
+
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/cream"
+            android:id="@+id/model"
+            android:text="Model : 1982"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/reduxe30"
+            android:layout_below="@id/brand"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/cream"
+            android:id="@+id/country"
+            android:text="Country : Germany"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/reduxe30"
+            android:layout_below="@id/model"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/cream"
+            android:id="@+id/name"
+            android:text="Name : 3 Serie"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/reduxe30"
+            android:layout_below="@id/country"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"/>
+
+
+        <TextView
+            android:id="@+id/txt1"
+            android:textColor="@color/cream"
+            android:text="The BMW E30 is the second generation of BMW 3 Series, which was produced from 1982-1994 and replaced the E21 3 Series.
+
+The model range included coupé and convertible body styles, as well as being the first 3 Series to be produced in sedan and wagon/estate body styles. It was powered by four-cylinder petrol, six-cylinder petrol and six-cylinder diesel engines, the latter a first for the 3 Series. The E30 325iX model was the first 3 Series to have all-wheel drive."
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/reduxe30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:text="Development of the E30 3 Series began in July 1976, with styling being developed under chief designer Claus Luthe with exterior styling led by Boyke Boyer.[citation needed] In 1978, the final design was approved, with design freeze (cubing process) being completed in 1979. BMW's launch film for the E30 shows the design process including Computer-aided design (CAD), crash testing and wind-tunnel testing. The car was released at the end of November 1982.
+
+Externally, the E30's appearance is very similar to twin headlight versions of its E21 predecessor, however there are various detail changes in styling to the E30. Major differences to the E21 include the interior and a revised suspension, the latter to reduce the oversteer for which the E21 was criticised."
+            android:textColor="@color/cream"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/txt3"
+            android:text="Initially, the E30 used carryover four-cylinder (M10) and six-cylinder (M20) petrol engines from its E21 predecessor. Over the production run, new families of four-cylinder petrol engines were introduced and the six-cylinder engine received various upgrades. A six-cylinder diesel engine was introduced, in both naturally aspirated and turbocharged forms."
+            android:textColor="@color/cream"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+</ScrollView>

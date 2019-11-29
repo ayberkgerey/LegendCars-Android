@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mustang">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/entranceonis"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/gt350"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/gt350"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"/>
+
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/cream"
+            android:id="@+id/brand"
+            android:text="Brand : Ford"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/gt350"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"/>
+
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/cream"
+            android:id="@+id/model"
+            android:text="Model : 1965"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/gt350"
+            android:layout_below="@id/brand"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/cream"
+            android:id="@+id/country"
+            android:text="Country : USA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/gt350"
+            android:layout_below="@id/model"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/cream"
+            android:id="@+id/name"
+            android:text="Name : Mustang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/gt350"
+            android:layout_below="@id/country"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"/>
+
+
+
+        <TextView
+        android:id="@+id/txt1"
+        android:textColor="@color/cream"
+        android:text="
+The 1965 GT Mustang was available in hardtop, convertible or fastback. It also came with the option of a 225 or 271hp V-8 engine and a 3 or 4 speed manual or cruise-o-matic transmission.
+
+Cosmetically, it featured GT a (gran turismo/grand touring) badge on the lower front fender and the low stripes. Driving lights located in the grille and dual exhausts were an option for regular 65 Mustangs but they came standard in the GTs.
+
+The rally-pac instrument cluster of tach and clock was a popular option in 1965 and became standard in all 66GTs."
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/gt350"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:text="The 1965 Mustang Shelby was debuted in January of 1965. This was a later release than the 1964 1/2 and the 1965 Mustang, which debuted in April and September of 1964. All 1965 Mustang Shelbys were fastback models and came with no rear seat. The idea was to produce a model specifically geared toward racing.
+
+The '65 Mustang Shelby came in two versions; the GT350 street model and the GT350R racing edition. Some of the modifications of these Shelby editions included a Shelby grille, a fiberglass hood with a functional air scoop and racing pins, racing mirrors, louvers, side exhaust and side markings of G.T.350. On the inside you'd find a three spoke steering wheel, a tachometer, oil pressure gauge and racing style seat belts. The horn was located as a switch on the dash since it didn't fit well with the race style steering wheel. These Mustang GT350s were also only available in white with dark blue racing stripes.
+
+Compared with the price of the original Mustang, the GTs were pricey! The street version retailed at $4,547 compared with the Mustang base price of $2,320. Only 516 of these street model Mustang GTs were made, making them a highly sought after vintage car today!"
+        android:textColor="@color/cream"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</ScrollView>

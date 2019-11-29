@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Minicooper">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/entranceonis"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/aok621"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/aok621"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"/>
+
+
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/cream"
+        android:id="@+id/brand"
+        android:text="Brand : Mini"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/aok621"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"/>
+
+
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/cream"
+        android:id="@+id/model"
+        android:text="Model : 1961"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/aok621"
+        android:layout_below="@id/brand"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/cream"
+        android:id="@+id/country"
+        android:text="Country : UK"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/aok621"
+        android:layout_below="@id/model"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/cream"
+        android:id="@+id/name"
+        android:text="Name : Cooper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/aok621"
+        android:layout_below="@id/country"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/txt1"
+            android:textColor="@color/cream"
+            android:text="The history of the MINI Cooper has been one that has seen the model rise from a racing car variation on Mini origins, through to being one of the most iconic vehicles of the 1960s. More recently, the MINI Cooper has formed part of BMW’s takeover and relaunch of the marque in the 2000s as a series of Cooper and Cooper S variants, which have aligned with the success of the Mini Hatch and other models. Looking at this history, it is possible to briefly note how the Mini Cooper developed out of a key collaboration between the British Motor Corporation and the Cooper Car Company, before that design was adapted for later models."
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/aok621"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:text="The origins of the Mini Cooper can be traced to the development of the original Mini by BMC and designer Sir Alex Issigonis in the 1950s. Responding to a fuel shortage, and the need for more efficient city cars, the Mini was developed as a two door, 4 cylinder engine car by BMC, and featured a monocoque shell. The first Mini, or Mark I, was tied to BMC’s other brand names, which included the Morris Minor and Austin, and was launched in 1959. During the 1960s, the popularity of the compact Mini led to it taking on its own distinctive identity, with the Mark II Mini adding a new grille in the later part of the decade."
+            android:textColor="@color/cream"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:text="The Mini Cooper was modeled as a special version of the first generation Mini, with John Cooper of the Cooper Car Company recognizing the potential to create a motorsports version of the same car. This was launched as the Mini Cooper and the Mini Cooper S in 1961 and 1963. These cars featured 848cc engines for the Cooper, and 1071cc for the S type. The Cooper S’s iconic appeal as a sportier version of the Mini was underlined by its success at the Monte Carlo Rally in 1964, 1965 and 1967, as well as its appearance in the 1967 British film The Italian Job, in which Minis and Mini Coopers play a key role in a bank heist."
+            android:textColor="@color/cream"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

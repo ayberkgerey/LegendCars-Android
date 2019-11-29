@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Entrance">
+
+<ImageView
+    android:src="@drawable/entranceonis"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"/>
+
+
+    <GridLayout
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_centerHorizontal="true">
+
+        <ImageButton
+            android:id="@+id/mustang"
+            android:layout_height="180dp"
+            android:layout_width="180dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/mustang65"
+            android:scaleType="centerCrop"/>
+
+        <ImageButton
+            android:id="@+id/bmwE30"
+            android:layout_height="180dp"
+            android:layout_width="180dp"
+            android:src="@drawable/bmwe30"
+            android:scaleType="centerCrop"/>
+
+        <ImageButton
+            android:id="@+id/miniCooper"
+            android:layout_height="180dp"
+            android:layout_width="180dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/minicooper"
+            android:scaleType="centerCrop"/>
+
+        <ImageButton
+            android:id="@+id/audi4000"
+            android:layout_height="180dp"
+            android:layout_width="180dp"
+            android:src="@drawable/audi4000"
+            android:scaleType="centerCrop"/>
+
+        <ImageButton
+            android:id="@+id/bmw2000"
+            android:layout_height="180dp"
+            android:layout_width="180dp"
+            android:src="@drawable/bmw742002"
+            android:scaleType="centerCrop"/>
+
+        <ImageButton
+            android:id="@+id/fordBronco"
+            android:layout_height="180dp"
+            android:layout_width="180dp"
+            android:src="@drawable/fordbronco"
+            android:scaleType="centerCrop"/>
+
+    </GridLayout>
+
+
+</RelativeLayout>
